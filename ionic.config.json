@@ -1,5 +1,7 @@
 {
   "name": "AssetManagements",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

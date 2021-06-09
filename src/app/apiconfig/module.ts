@@ -1,3 +1,2 @@
-export const apiUrl ='http://fierce-shore-67820.herokuapp.com';
-export const apiKey ='amine2019';
-//http://fierce-shore-67820.herokuapp.com
+export const apiUrl ='http://assetmanagement1.herokuapp.com';
+export const apiKey ='oumaima2021';
