@@ -10,7 +10,8 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
-  },
+  },  { path: 'login', loadChildren: './pages/login/login.module#LoginPageModule' },
+
 ];
 
 @NgModule({
