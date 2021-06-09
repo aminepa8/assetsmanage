@@ -12,7 +12,10 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   { path: 'login', loadChildren: './pages/login/login.module#LoginPageModule' },
-  { path: 'scancodeintervention', loadChildren: './pages/scancodeintervention/scancodeintervention.module#ScancodeinterventionPageModule' },
+  { path: 'scancodeintervention', loadChildren: './pages/scancodeintervention/scancodeintervention.module#ScancodeinterventionPageModule' },  { path: 'scan-code', loadChildren: './pages/scan-code/scan-code.module#ScanCodePageModule' },
+  { path: 'intervention', loadChildren: './pages/intervention/intervention.module#InterventionPageModule' },
+  { path: 'asset-info', loadChildren: './pages/asset-info/asset-info.module#AssetInfoPageModule' },
+
 
 ];
 
