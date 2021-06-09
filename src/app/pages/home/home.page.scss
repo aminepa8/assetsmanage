@@ -1,27 +1,19 @@
-#container {
-  text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.logo {
+  width: 120px;
+  height: 120px;
+  margin: 35px auto 8px;
+  border-radius: 10%;
+  background: url("/assets/img/homelogo.png") no-repeat;
+  background-size: 100%;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
+.pagebg {
+  --background: linear-gradient(to right top, #588ee0,
+   #4982e4, #3d76e7, #3869e8, #3b5ae7);
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
+  
+  }
+  .btn{
+      margin-top: 30px;
+  }
